@@ -103,6 +103,9 @@ class ProgressiveManager extends Manager {
     this.title = 'Not a Manager'
     this.bonus = 0
   }
+  if (this.reports === 0) {
+    this.title = 'Not a Manager'
+  }
 }
 
 ////////// PROBLEM 4 - Black Diamond //////////
